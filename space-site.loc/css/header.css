@@ -1,0 +1,109 @@
+.header {
+	height: 700px;
+	background-color: #38040E;
+}
+
+.nav {
+	height: 60px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.nav-panel {
+	list-style-type: none;
+	padding: none;
+	display: flex;
+	flex-flow: row wrap;
+	height: 60px;
+	align-items: center;
+	margin-left: 60px;
+	float: left;
+
+}
+
+.nav-panel__elem {
+	color: #330000;
+	margin-right: 35px;
+}
+
+.nav-panel__elem a {
+	color: #33ffff;
+}
+
+.nav-panel__elem a:active,
+.nav-panel__elem a:hover,
+.nav-panel__elem a:link,
+.nav-panel__elem a:visited {
+	color: #bbbbbb;
+}
+
+.nav-panel__elem:last-child {
+	margin-right: 0;
+}
+
+.logo {
+	height: 60px;
+	width: 60px;
+	background-image: url("../img/logo.png");
+	float: left;
+}
+
+.contacts {
+	float: right;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.contacts__email {
+	background-image: url("../img/mail-logo.png");
+	margin-right: 20px;
+	height: 12px;
+	width: 17px;
+}
+
+.contacts__phone {
+	background-image: url("../img/phone.png");
+	height: 17px;
+	width: 17px;
+}
+
+.text-block {
+	float: left;
+	margin-top: 80px;
+	margin-left: -280px;
+}
+
+.text-block__main {
+	font-size: 48px;
+	color: #ffeeee;
+	width: 270px;
+	margin-bottom: 50px;
+}
+
+.text-block__desc {
+	line-height: 24px;
+	font-size: 16px;
+	color: #ffeeee;
+	margin-bottom: 60px;
+}
+
+.text-block__button {
+	height: 35px;
+	width: 170px;
+	border-radius: 25px;
+	background-color: #cf4a53;
+	padding-top: 15px;
+	padding-left: 70px;
+	cursor: pointer;
+}
+
+.moon {
+	width: 438px;
+	height: 437px;
+	object-fit: cover;
+	background-image: url(../img/moon-rocket.png);
+	float: right;
+	margin-top: 20px;
+}
